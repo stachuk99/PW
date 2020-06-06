@@ -5,7 +5,7 @@
 #include <gtk/gtk.h>
 #include <time.h>
 #include <stdbool.h>
-
+// kompilacja: gcc `pkg-config --cflags gtk+-3.0` -o example-0 Lab_4.c `pkg-config --libs gtk+-3.0` -lpthread 
 
 struct int_arg{
     int number;
